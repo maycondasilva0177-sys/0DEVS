@@ -122,6 +122,17 @@ body {
     position: relative;
 }
 
+.nav-discord {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.discord-icon-nav {
+    display: block;
+    flex-shrink: 0;
+}
+
 .nav-link:hover {
     color: var(--text);
 }
